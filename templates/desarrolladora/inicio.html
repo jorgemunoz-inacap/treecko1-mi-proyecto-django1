@@ -1,0 +1,16 @@
+{% extends 'desarrolladora/base.html' %}
+{% load static %}
+{% block principal %}
+<div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/gta5.png' %}" class="card-img-top" alt="{{ nombre }} de la desarrolladora {{ desarrolladora }}>
+                <div class="card-body">
+                    <h5>{{ juego.nombre }}</h5>
+                        <p> de la desarrolladora {{ juego.desarrolladora }}</p>
+                        <p>de tipo {{ juego.tipo }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

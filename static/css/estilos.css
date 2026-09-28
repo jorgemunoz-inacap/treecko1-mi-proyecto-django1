@@ -1,0 +1,9 @@
+.btn-morado {
+background-color: #6f42c1;
+color: white;
+}
+ 
+.btn-morado:hover {
+background-color: #59359a;
+color: white;
+}

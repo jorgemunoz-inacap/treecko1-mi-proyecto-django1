@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "GTA 5",
+        "desarrolladora": "Rockstar Games",
+        "descripcion": "Juego de Rockstar",
+        "imagen": "images/gta5.png",
+        "plataforma" : "PC, PLAYSTATION 5, PLAYSTATION 4"
+    },
+    {
+        "nombre": "Minecraft",
+        "desarrolladora": "Mojang Studios",
+        "descripcion": "Juego de Mojang Studios",
+        "imagen": "images/minecraft.png",
+        "plataforma" : "PC, PLAYSTATION 5"
+    },
+    {
+        "nombre": "GTA coquimbo",
+        "desarrolladora": "Rockstar Games",
+        "descripcion": "Juego de Rockstar",
+        "imagen": "images/gta san andreas.png",
+        "plataforma" : "PC, PLAYSTATION 5, PLAYSTATION 4"
+    },
+    {
+        "nombre": "RuneScape",
+        "desarrolladora": "Jagex",
+        "descripcion": "Juego de Jagex",
+        "imagen": "images/RuneScape.png",
+        "plataforma" : "PC"
+    }
+]

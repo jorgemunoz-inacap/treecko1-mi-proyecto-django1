@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django listado juegos</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
+
+        {% for juego in juegos %}
+
+        <div class="col" style="max-width: 25rem;">
+            <div class="card h-100">
+
+                <img src="{% static juego.imagen %}" class="card-img-top w-100" alt="{{ juego.nombre }}">
+                
+                <div class=ss="card-text">{{ juego.descripcion }}</p>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{ juego.nombre }}</li>
+                    <li class="list-group-item">{{ juego.desarrolladora }}</li>
+                    <li class="list-group-item">{{ juego.plataforma}} </li>
+                </ul>
+
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+</div>

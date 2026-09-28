@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Estamos en la desarrolladora</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="{% static 'images/gta5.png' %}" class="card-img-top" alt="{{ nombre }} de la desarrolladora {{ desarrolladora }}>
+                <div class="card-body">
+                    <h5 class="card-title">{{ nombre }} de la desarrolladora {{ desarrolladora }}</h5>
+                    <p class="card-text">tipo de juego {{ tipo }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="{% static 'js\bootstrap.bundle.min.js'%}"></script>
+</body>
+</html>
